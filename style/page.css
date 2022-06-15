@@ -137,3 +137,32 @@ header{
 
    }
 
+  #container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    row-gap: 100px;
+    margin-left: 40%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+    margin-top: -10%;
+    
+  }
+
+  button{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    height: 40px;
+    margin-bottom: 0%;
+  }
+  #container>div{
+    display: flex;
+    gap: 30px;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+
+
+

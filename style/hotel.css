@@ -1,0 +1,75 @@
+#ash1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: -10%;
+}
+
+#ash2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+}
+
+
+
+#ash3{
+    display: flex;
+    gap: 40%;
+    
+}
+#ash4{
+    display: flex;
+    gap: 40px;
+     font-size: larger;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+#ash5{
+    height: 40px;
+    width: 200px;
+    background-color: red;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#ash6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+/* #ash7{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+} */
+
+#ash8{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+
+#ash9{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+
+}
+
+/* #ash10{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+} */
+
+#ash11{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
