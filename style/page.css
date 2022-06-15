@@ -1,0 +1,139 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+
+    color: black;
+  
+}
+
+
+li, a, button{
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: 500;
+ font-size: 16px;
+ color: white;
+ text-decoration: none;   
+}
+
+header{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+}
+
+.logo{
+    cursor: pointer;
+
+}
+
+.nav_link{
+    list-style: none;
+    background-color: black;
+}
+
+.nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_link li a:hover{
+    color: #0088a9;
+}
+
+
+/* search bar */
+.flex {
+    display: flex;
+    
+
+   } 
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    overflow: hidden;
+    grid-gap: 20px;
+
+  }
+  
+  .book{
+    
+    width: 90%;
+    height: 20vh;
+    color: white;
+    margin-left: 120px;
+    height: 400px;
+  }
+
+/* .asb1{
+    margin-top: 40px;
+  } 
+   */
+  
+  .book .input {
+    background:  white;
+    padding: 20px 20px 40px 20px;
+    height: 200px
+  }
+  
+  .book .search {
+    background: #3f9cc1;
+    padding: 20px;
+    color:  black;
+  }
+
+  label{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid black;
+    outline: none;
+    background:  white;
+    margin-top: 20px;
+    color: black;
+  }
+  
+  ::placeholder {
+    color: black;
+  }
+  
+  .book .search input{
+    width: 40px;
+    
+  }
+  
+  .book .search input {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  
+   .btn2{
+    height: 40px;
+    width:   120px;
+    color:  white;
+    background-color: red;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 45%;
+    margin-top: 30px;
+    cursor: pointer;
+
+   }
+
