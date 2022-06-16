@@ -18,14 +18,13 @@ let p3= new Products("Sheraton New Delhi hotel", "https://a.travel-assets.com/me
 
 let p4=new Products("The Leela Place New Delhi","https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/800000/790500/790474/acc5ae1c_b.jpg", 92 )
 
-
 let p5=new Products("Taj Place, New Delhi", "https://images.trvl-media.com/hotels/1000000/470000/465100/465005/13a4747e.jpg?impolicy=resizecrop&rw=455&ra=fit", 104)
 
 let p6=new Products("The Oberoi New Delhi","https://images.trvl-media.com/hotels/21000000/20170000/20160800/20160759/e31ef8a9.jpg?impolicy=resizecrop&rw=455&ra=fit", 182)
 
-let p7=new Products("Holiday Inn New Delhi International Airport an IHG Hotel", 182)
+let p7=new Products("Holiday Inn New Delhi International Airport an IHG Hotel","https://images.trvl-media.com/hotels/79000000/78470000/78468200/78468159/9874bc65.jpg?impolicy=resizecrop&rw=455&ra=fit", 182)
 
-let p8=new Products("The Leela Ambience Girugram Hotel", 76)
+let p8=new Products("The Leela Ambience Girugram Hotel","https://images.trvl-media.com/hotels/11000000/10220000/10210200/10210101/532d599e.jpg?impolicy=resizecrop&rw=455&ra=fit", 76)
 
 let p9=new Products("Hotel The Glory","https://images.trvl-media.com/hotels/77000000/76190000/76180300/76180263/387e7140.jpg?impolicy=resizecrop&rw=455&ra=fit", 13)
 
@@ -55,7 +54,7 @@ objData.map(function(elem){
     price.innerText=elem.price;
 
     var btn = document.createElement("button");
-    btn.innerText="Add to cart";
+    btn.innerText="Click for the Booking";
     btn.addEventListener("click", function(){
         addToCart(elem);
     });

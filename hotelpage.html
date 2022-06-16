@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./style/hotel.css">
 </head>
 <body>
+   <header id="asnav1"></header>
+
     <div id="ash1">
         <div><img src="https://images.trvl-media.com/hotels/4000000/3860000/3851700/3851663/958ad657.jpg?impolicy=resizecrop&rw=598&ra=fit" alt=""></div>
         <div id="ash2">
@@ -29,7 +31,7 @@
             <div>Rewies</div>
         </div>
         <div>
-            <form action="./index.html">
+            <form action="./cart.html">
             <button id="ash5">Reserve Room</button>
             </form>
         </div>
@@ -113,5 +115,31 @@
         </div>
     </div>
 
+    <div id="asf13"></div>
+    <div class="asf14">
+        <p>© 2022 Orbitz, LLC, an Expedia Group Company. All rights reserved.</p>
+           <br>
+           <p>Orbitz, Orbitz.com, and the Orbitz logo are trademarks or registered trademarks of Orbitz, LLC. CST# 2083930-50.</p>
+  
+      </div>
+
 </body>
 </html>
+<script type="module">
+
+    import navbar from "./components/navbar.js";
+    
+    // console.log(navbar())
+    
+    document.getElementById('asnav1').innerHTML=navbar();
+    </script>
+    
+<script type="module">
+
+    import footer from "./components/footer.js";
+  
+     console.log(footer())
+  
+    document.getElementById('asf13').innerHTML=footer();
+  
+  </script>

@@ -8,22 +8,7 @@
     <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
-    <header>
-        <img src="./logo.png" alt="logo">
-        <a href="#">More Travel</a>
-        <nav>
-            <ul class="nav_link">
-                <li><a href="#">Espanol</a></li>
-                <li><a href="#">List your Property</a> </li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Trips</a></li>
-                <li><a href="./signup.html">Sign in</a></li>
-    
-            </ul>
-    
-        </nav>
-     
-    </header>
+    <header id="ash1"></header>
 
 
 
@@ -56,7 +41,7 @@
           </div>
          
         </div>
-        <form method="get" action="./signup.html">
+        <form method="get" action="./page.html">
           <button class="btn2" type="submit">Search</button>
       </form>
        
@@ -145,8 +130,8 @@
       <div>Top Car rental destination in America</div>
     </div>
 
-    <div class="asf13">
-      <div><h2>Expedia Group</h2></div>
+    <div id="asf13">
+      <!-- <div><h2>Expedia Group</h2></div>
     
       <div> <h3> Company </h3>
         <br>
@@ -230,7 +215,7 @@
              <dt>Use an orbitz Coupon</dt>
                   <br>
             </dl>
-      </div>
+      </div> -->
     </div>
     
 
@@ -245,3 +230,28 @@
     
 </html>
 </body>
+
+
+<script type="module">
+
+import navbar from "./components/navbar.js";
+// import footer from "./components/footer.js";
+
+console.log(navbar())
+
+document.getElementById('ash1').innerHTML=navbar();
+// document.getElementById('asf13').innerHTML=footer();
+</script>
+
+
+<script type="module">
+
+  import footer from "./components/footer.js";
+
+   console.log(footer())
+
+  document.getElementById('asf13').innerHTML=footer();
+
+</script>
+
+<!-- <script src="./script/index.js" type="module"></script> -->

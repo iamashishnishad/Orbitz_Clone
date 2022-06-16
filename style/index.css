@@ -18,7 +18,7 @@ li, a, button{
  text-decoration: none;   
 }
 
-header{
+#ash1{
     display: flex;
     justify-content:  space-between;
     align-items: center;
@@ -292,7 +292,7 @@ header{
     padding: 20px;
   }
 
-  .asf13{
+  #asf13{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;

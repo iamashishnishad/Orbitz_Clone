@@ -13,9 +13,10 @@ console.log(total);
 //`` - template literals
 document.querySelector(
   "p"
-).innerText = ` you have ${length} items in cart and  total is Rs ${total}`;
+).innerText = `You have ${length} hotel in cart and  total is Rs ${total}`;
 
 cartData.map(function (elem, index) {
+  
   var box = document.createElement("div");
 
   var img = document.createElement("img");
@@ -35,7 +36,9 @@ cartData.map(function (elem, index) {
 
   box.append(img, name, price, btn);
 
+
   document.querySelector("#container").append(box);
+  
 });
 
 function removeItem(elem, index) {
