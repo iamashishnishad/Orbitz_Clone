@@ -175,6 +175,8 @@ header{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
+    margin-left: 70px;
+    margin-top: 40px;
 
   }
   h3{
@@ -185,12 +187,15 @@ header{
   
 
   .asf3{
-    display: grid;
-    grid-template-columns: repeat(2,  1fr);
-    grid-template-rows: auto;
-
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: larger;
+    font-weight: bolder;
   }
-
+ .asc2{
+  margin-left: 50px;
+  margin-top: 30px;
+ }
   /* Search */
 
   /* inputbox */
@@ -210,6 +215,8 @@ header{
   #asf5{
     font-size: larger;
     font-weight: bold;
+    margin-left: 60px;
+    margin-top: 50px;
   }
 
 
@@ -222,7 +229,14 @@ header{
     grid-template-rows: auto;
     gap: 1px;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 120px;
+    margin-top: 40px;
+
+  }
+
+  .asf7{
+    margin-left: 220px;
+    margin-top: 30px;
   }
   
 
@@ -230,6 +244,8 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
+    margin-top: 60px;
+    margin-left: 90px;
     
   }
 
@@ -246,6 +262,7 @@ header{
     width: 50%;
     display: flex;
      gap: 20px;
+     margin-top: 30px;
   }
 
   #asf11{
@@ -254,6 +271,7 @@ header{
     color: white;
     width: 50%;
     font-weight: bolder;
+  
   }
 
   .asf12{
@@ -263,11 +281,15 @@ header{
     gap: 20px;
     font-size: larger;
     font-weight: bolder;
+    margin-top: 40px;
+    
   }
   .asf12>div {
     border: 1px solid black;
     height: 60px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 30px;
+    padding: 20px;
   }
 
   .asf13{
@@ -275,10 +297,12 @@ header{
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     row-gap: 30px;
+    margin-top: 60px;
   }
 
   .asf14{
     text-align: center;
+    margin-top: 60px;
   }
 
 
