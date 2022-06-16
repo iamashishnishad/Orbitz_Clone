@@ -4,7 +4,7 @@ function navbar(){
     <a href="#">More Travel</a>
     <nav>
         <ul class="nav_link">
-            <li><a href="#">Espanol</a></li>
+            <li><a href="./index.html">Espanol</a></li>
             <li><a href="#">List your Property</a> </li>
             <li><a href="#">Support</a></li>
             <li><a href="#">Trips</a></li>

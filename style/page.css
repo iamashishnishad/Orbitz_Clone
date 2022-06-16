@@ -139,12 +139,13 @@ header{
 
   #container{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 2fr);
     grid-template-rows: auto;
     row-gap: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 10px;
     margin-top: -10%;
+    row-gap: 70px;
     
   }
 
@@ -180,10 +181,14 @@ header{
   }
 
    #asp1{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: auto;
     justify-content: center;
-    gap: 30px;
-
+    gap: 70px;
+   }
+   #asp2>div{
+    justify-content: left;
    }
 
    #ash5{
