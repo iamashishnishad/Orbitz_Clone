@@ -151,15 +151,17 @@ header{
 
   button{
     color: black;
-    font-weight: bolder;
+    font-size: large;
+    font-weight: bold;
     height: 40px;
     margin-bottom: 0%;
   }
   #container>div{
     display: flex;
     gap: 30px;
-    font-size: larger;
+    font-size: large;
     font-weight: bolder;
+    margin-right: 40px;
   }
   #asf13{
     display: grid;
@@ -187,9 +189,7 @@ header{
     justify-content: center;
     gap: 70px;
    }
-   #asp2>div{
-    justify-content: left;
-   }
+   
 
    #ash5{
     height: 40px;
